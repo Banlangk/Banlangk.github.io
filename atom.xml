@@ -6,7 +6,7 @@
   <link href="https://banlangk.github.io/atom.xml" rel="self"/>
   
   <link href="https://banlangk.github.io/"/>
-  <updated>2023-11-04T06:16:17.727Z</updated>
+  <updated>2023-11-05T06:38:16.663Z</updated>
   <id>https://banlangk.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://banlangk.github.io/posts/d87f7e0c.html"/>
+    <id>https://banlangk.github.io/posts/d87f7e0c.html</id>
+    <published>2023-11-05T06:36:18.000Z</published>
+    <updated>2023-11-05T06:38:16.663Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="this-is-an-example"><a href="#this-is-an-example" class="headerlink" title="this is an example"></a>this is an example</h2><h3 id="now-i-will-show-u-how-to-use-latex-in-html"><a href="#now-i-will-show-u-how-to-use-latex-in-html" class="headerlink" title="now i will show u how to use latex in html"></a>now i will show u how to use latex in html</h3><script type="math/tex; mode=display">sum ^ 2 _ 1</script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;this-is-an-example&quot;&gt;&lt;a href=&quot;#this-is-an-example&quot; class=&quot;headerlink&quot; title=&quot;this is an example&quot;&gt;&lt;/a&gt;this is an example&lt;/h2&gt;&lt;h3 id=&quot;n</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://banlangk.github.io/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

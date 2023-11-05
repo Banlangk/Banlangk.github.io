@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>test</title>
+      <link href="/posts/d87f7e0c.html"/>
+      <url>/posts/d87f7e0c.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="this-is-an-example"><a href="#this-is-an-example" class="headerlink" title="this is an example"></a>this is an example</h2><h3 id="now-i-will-show-u-how-to-use-latex-in-html"><a href="#now-i-will-show-u-how-to-use-latex-in-html" class="headerlink" title="now i will show u how to use latex in html"></a>now i will show u how to use latex in html</h3><script type="math/tex; mode=display">sum ^ 2 _ 1</script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/posts/4a17b156.html"/>
       <url>/posts/4a17b156.html</url>
