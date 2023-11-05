@@ -68,7 +68,7 @@
       <link href="/js/runtime.js"/>
       <url>/js/runtime.js</url>
       
-        <content type="html"><![CDATA[var now = new Date();function createtime() {    var t = new Date("11/04/2023 00:00:00");    now.setTime(now.getTime() + 250);    var timeDifference = (now - t) / 1000;    var days = Math.floor(timeDifference / (24 * 60 * 60));    var hours = Math.floor((timeDifference % (24 * 60 * 60)) / (60 * 60));    var minutes = Math.floor((timeDifference % (60 * 60)) / 60);    var seconds = Math.round(timeDifference % 60);    let g = `<img class='boardsign' title=''><span class='textTip'> <br> 本站已经运行了 ${days} 天</span><span id='runtime'> ${hours} 小时 ${minutes} 分 ${seconds} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`;    if (document.getElementById("workboard")) {        document.getElementById("workboard").innerHTML = g;    }}setInterval(() => {    createtime();}, 250);]]></content>
+        <content type="html"><![CDATA[var now = new Date();function createtime() {    var t = new Date("11/04/2023 00:00:00");    now.setTime(now.getTime() + 250);    var timeDifference = (now - t) / 1000;    var days = Math.floor(timeDifference / (24 * 60 * 60));    var hours = Math.floor((timeDifference % (24 * 60 * 60)) / (60 * 60));    var minutes = Math.floor((timeDifference % (60 * 60)) / 60);    var seconds = Math.round(timeDifference % 60);    let g = `<span class='textTip'> <br> 本站已运行 ${days} 天</span><span id='runtime'> ${hours} 小时 ${minutes} 分 ${seconds} 秒 </span>`;    if (document.getElementById("workboard")) {        document.getElementById("workboard").innerHTML = g;    }}setInterval(() => {    createtime();}, 250);]]></content>
       
     </entry>
     
