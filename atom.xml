@@ -3,11 +3,11 @@
   <title>Banlangk的小屋</title>
   
   <subtitle>吾生也有涯，而知也无涯。</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://banlangk.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://banlangk.github.io/"/>
   <updated>2023-11-04T06:16:17.727Z</updated>
-  <id>http://example.com/</id>
+  <id>https://banlangk.github.io/</id>
   
   <author>
     <name>Banlangk</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/posts/4a17b156.html"/>
-    <id>http://example.com/posts/4a17b156.html</id>
+    <link href="https://banlangk.github.io/posts/4a17b156.html"/>
+    <id>https://banlangk.github.io/posts/4a17b156.html</id>
     <published>2023-11-03T13:16:11.363Z</published>
     <updated>2023-11-04T06:16:17.727Z</updated>
     
