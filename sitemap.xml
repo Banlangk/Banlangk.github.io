@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://banlangk.github.io/posts/4a17b156.html</loc>
+    <loc>https://banlangk.cn/manifest.json</loc>
     
     <lastmod>2023-11-10</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://banlangk.github.io/manifest.json</loc>
+    <loc>https://banlangk.cn/link/index.html</loc>
     
     <lastmod>2023-11-10</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://banlangk.github.io/link/index.html</loc>
+    <loc>https://banlangk.cn/posts/4a17b156.html</loc>
     
     <lastmod>2023-11-10</lastmod>
     
@@ -30,7 +30,7 @@
   
 
   <url>
-    <loc>https://banlangk.github.io/</loc>
+    <loc>https://banlangk.cn/</loc>
     <lastmod>2023-11-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>

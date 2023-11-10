@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Banlangk的小屋</title>
+  <title>Banlangk的博客</title>
   
-  <subtitle>昼短苦夜长，何不秉烛游</subtitle>
-  <link href="https://banlangk.github.io/atom.xml" rel="self"/>
   
-  <link href="https://banlangk.github.io/"/>
-  <updated>2023-11-10T08:42:06.087Z</updated>
-  <id>https://banlangk.github.io/</id>
+  <link href="https://banlangk.cn/atom.xml" rel="self"/>
+  
+  <link href="https://banlangk.cn/"/>
+  <updated>2023-11-10T13:51:03.518Z</updated>
+  <id>https://banlangk.cn/</id>
   
   <author>
     <name>Banlangk</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>前端学习</title>
-    <link href="https://banlangk.github.io/posts/4a17b156.html"/>
-    <id>https://banlangk.github.io/posts/4a17b156.html</id>
-    <published>2023-11-10T08:42:06.087Z</published>
-    <updated>2023-11-10T08:42:06.087Z</updated>
+    <link href="https://banlangk.cn/posts/4a17b156.html"/>
+    <id>https://banlangk.cn/posts/4a17b156.html</id>
+    <published>2023-11-10T13:51:03.518Z</published>
+    <updated>2023-11-10T13:51:03.518Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前端学习笔记"><a href="#前端学习笔记" class="headerlink" title="前端学习笔记"></a>前端学习笔记</h1><h2 id="一、HTML基本骨架"><a href="#一、HTML基本骨架" class="headerlink" title="一、HTML基本骨架"></a>一、HTML基本骨架</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!--网页标题--&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--网页主题内容--&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure><ul><li>html：整个网页</li><li>head：存放给浏览器看的信息<ul><li>title：网页标题</li></ul></li><li>body：存放给用户看的信息</li></ul><p><strong><em>vs code快速生成骨架:</em></strong></p><ul><li>在HTML文件中，<code>!</code> 配合 <code>Enter</code> 键或 <code>Tab</code> 键</li></ul><h3 id="标签的关系"><a href="#标签的关系" class="headerlink" title="标签的关系:"></a>标签的关系:</h3><ul><li>嵌套关系</li></ul><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure><ul><li>并列关系<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><strong>代码格式</strong>：<ul><li>嵌套关系：标签换行且缩进</li><li>并列关系：标签换行要对齐<h2 id="二、注释"><a href="#二、注释" class="headerlink" title="二、注释"></a>二、注释</h2></li></ul></li><li>注释标签 <code>&lt;!--...--&gt;</code><br><strong><em>vs code快捷键：</em></strong></li><li>添加或删除 <code>Ctrl + /</code></li></ul><h2 id="三、标签"><a href="#三、标签" class="headerlink" title="三、标签"></a>三、标签</h2><p><strong>单标签</strong>（<strong>不需要包裹内容）</strong><br><strong>双标签（需要包裹内容）</strong></p><h3 id="标签类型"><a href="#标签类型" class="headerlink" title="标签类型"></a>标签类型</h3><ul><li><strong>标题标签</strong> <code>&lt;h1&gt;&lt;/h1&gt;</code>……<code>&lt;h6&gt;&lt;/h6&gt;</code></li><li><strong>段落标签</strong> <code>&lt;p&gt;&lt;/P&gt;</code></li><li><p><strong>换行与水平线标签</strong> </p><ul><li>换行标签 <code>&lt;br&gt;</code></li><li>水平线标签 <code>&lt;hr&gt;</code></li></ul></li><li><p><strong>文本格式化标签</strong> </p><p>| <strong>标签名(自带强调含义)</strong> | <strong>效果</strong> | <strong>标签名</strong> | <strong>效果</strong> |<br>|:——————————-:|:———:|:————:|:———:|<br>| strong | <strong>加粗</strong> | b | <strong>加粗</strong> |<br>| em | <em>倾斜</em> | i | <em>倾斜</em> |<br>| ins | <u>下划线</u> | u | <u>下划线</u> |<br>| del | <del>删除线</del> | s | <del>删除线</del> |</p></li><li><p><strong>图像标签</strong>  <code>img src = &quot;图片的URL&quot;</code></p><ul><li>属性 <code>&lt;img src = &quot;&quot;&gt;</code><br>| <strong>属性</strong>  | <strong>作用</strong> | <strong>说明</strong> |<br>| :———-: | :—————: |:——————————————-: |<br>| <strong>alt</strong> | <strong>替换文本</strong> | <strong>图片无法显示的时候显示的文字</strong> |<br>| <strong>title</strong> | <strong>提示文本</strong> | <strong>鼠标悬停在图片上面的时候显示的文字</strong> |<br>| width | 图片的宽度 | 值为数字，没有单位 |<br>| height | 图片的高度 | 值为数字，没有单位 |</li><li>属性名 = “属性值”</li><li>属性写在<strong>尖括号里面，标签名后面。</strong> 标签名和属性之间用<code>空格</code>，不区分先后顺序。</li></ul></li></ul><h2 id="四、路径"><a href="#四、路径" class="headerlink" title="四、路径"></a>四、路径</h2>]]></content>
     
