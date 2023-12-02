@@ -6,7 +6,7 @@
   <link href="https://banlangk.cn/atom.xml" rel="self"/>
   
   <link href="https://banlangk.cn/"/>
-  <updated>2023-12-01T18:29:04.753Z</updated>
+  <updated>2023-12-02T08:53:49.885Z</updated>
   <id>https://banlangk.cn/</id>
   
   <author>
@@ -21,22 +21,19 @@
     <link href="https://banlangk.cn/posts/9daba997.html"/>
     <id>https://banlangk.cn/posts/9daba997.html</id>
     <published>2023-11-19T06:32:09.000Z</published>
-    <updated>2023-12-01T18:29:04.753Z</updated>
+    <updated>2023-12-02T08:53:49.885Z</updated>
     
     <content type="html"><![CDATA[<h1 id="这是一个测试"><a href="#这是一个测试" class="headerlink" title="这是一个测试"></a>这是一个测试</h1><div class="table-container"><table><thead><tr><th style="text-align:center">测试</th><th style="text-align:center">测试</th><th style="text-align:center">测试</th></tr></thead><tbody><tr><td style="text-align:center">测试</td><td style="text-align:center">测试</td><td style="text-align:center">测试</td></tr></tbody></table></div>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h1 id=&quot;这是一个测试&quot;&gt;&lt;a href=&quot;#这是一个测试&quot; class=&quot;headerlink&quot; title=&quot;这是一个测试&quot;&gt;&lt;/a&gt;这是一个测试&lt;/h1&gt;&lt;div class=&quot;table-container&quot;&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th st</summary>
-      
+    <summary type="html">C/C++专栏</summary>
     
     
     
+    <category term="C/C++" scheme="https://banlangk.cn/categories/C-C/"/>
+    
+    
+    <category term="C/C++" scheme="https://banlangk.cn/tags/C-C/"/>
     
   </entry>
   
